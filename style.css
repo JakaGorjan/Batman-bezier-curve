@@ -1,0 +1,90 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+html {
+  background: url("images/BatmanBackground.png") center / cover no-repeat;
+  background-attachment: fixed; /* opcijsko */
+}
+
+
+body {
+  
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+    h1{
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      margin: 0;
+     
+    }
+
+    #toggleBtn{
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 20;
+      padding: 10px 14px;
+      border: 0;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+   
+    .logo-layer{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+	  
+	  
+ 
+    }
+
+.logo-layer svg,
+
+.logo-layer img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  
+  
+}
+	
+	.logo-layer canvas{
+	position: absolute;
+	
+	top: 72%;
+  left: 50%;
+   width: 100%;
+  height: 100%;
+	
+	
+	}
+
+
+
+.logo-layer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+
+  
+  
+  
+}
+
+
+
+    #logo1 { display: block; }
+    #myCanvas { display: none; }
+	#logoPng { display: none; 
